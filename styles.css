@@ -116,23 +116,6 @@ h1 {
   margin-top: 1rem;
 }
 
-.study-timeline {
-  margin-top: 1.2rem;
-}
-
-.study-timeline-figure {
-  margin: 0.25rem 0 0;
-  padding: 0.75rem;
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  background: #fcfcfd;
-}
-
-.study-timeline-figure img {
-  width: 100%;
-  border-radius: 10px;
-}
-
 .study-media-card {
   margin: 0;
   max-width: 760px;
@@ -251,15 +234,6 @@ h1 {
   color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.6;
-}
-
-.field-trial-section {
-  margin-top: 1.6rem;
-  padding: 1.2rem 0 0;
-}
-
-.field-trial-card {
-  max-width: 760px;
 }
 
 @media (max-width: 920px) {
