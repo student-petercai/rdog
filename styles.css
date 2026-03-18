@@ -62,7 +62,7 @@ h1 {
 
 .study-section {
   margin: 0 0 1.8rem;
-  padding: 1.2rem 0 0;
+  padding: 1.2rem 0 0.2rem;
   border-top: 1px solid var(--line);
 }
 
@@ -113,12 +113,14 @@ h1 {
   display: grid;
   gap: 1rem;
   grid-template-columns: minmax(0, 1fr);
-  margin-top: 1rem;
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
 }
 
 .study-media-card {
   margin: 0;
-  max-width: 760px;
+  max-width: 680px;
 }
 
 .research-list {
@@ -234,6 +236,10 @@ h1 {
   color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+.study-media-card .research-section-label {
+  margin-bottom: 0.7rem;
 }
 
 @media (max-width: 920px) {
