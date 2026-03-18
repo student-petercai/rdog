@@ -135,6 +135,21 @@ h1 {
   text-decoration: underline;
 }
 
+.research-embed {
+  margin-top: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #f3f4f6;
+}
+
+.research-embed iframe {
+  display: block;
+  width: 100%;
+  height: 360px;
+  border: 0;
+}
+
 @media (max-width: 920px) {
   .page {
     width: min(100% - 24px, 1040px);
@@ -157,5 +172,9 @@ h1 {
 
   .research-title {
     font-size: 1.05rem;
+  }
+
+  .research-embed iframe {
+    height: 240px;
   }
 }
