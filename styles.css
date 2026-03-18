@@ -118,13 +118,22 @@ h1 {
   border-top: 1px solid var(--line);
 }
 
+.study-media-grid-leading {
+  margin-top: 0.35rem;
+  margin-bottom: 1.2rem;
+  padding-top: 0;
+  border-top: 0;
+}
+
 .study-media-card {
   margin: 0;
   max-width: 680px;
 }
 
 .research-list {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--line);
   width: 100%;
   max-width: 100%;
 }
