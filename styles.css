@@ -224,6 +224,7 @@ h1 {
 
 .research-demo-card {
   margin: 0;
+  width: min(100%, 620px);
 }
 
 .research-embed {
