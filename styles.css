@@ -60,6 +60,84 @@ h1 {
   line-height: 1.65;
 }
 
+.study-section {
+  margin: 0 0 1.8rem;
+  padding: 1.2rem 0 0;
+  border-top: 1px solid var(--line);
+}
+
+.study-card {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: minmax(0, 1.4fr) minmax(240px, 0.8fr);
+  align-items: start;
+}
+
+.study-title {
+  margin: 0 0 0.8rem;
+  font-size: 1.45rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.study-text {
+  margin: 0 0 0.8rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.study-status {
+  padding: 1rem 1rem 0.95rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.study-status h3 {
+  margin: 0 0 0.7rem;
+  font-size: 1rem;
+}
+
+.study-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.study-list li {
+  margin: 0.35rem 0;
+  line-height: 1.55;
+}
+
+.study-media-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr);
+  margin-top: 1rem;
+}
+
+.study-timeline {
+  margin-top: 1.2rem;
+}
+
+.study-timeline-figure {
+  margin: 0.25rem 0 0;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fcfcfd;
+}
+
+.study-timeline-figure img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.study-media-card {
+  margin: 0;
+  max-width: 760px;
+}
+
 .research-list {
   margin-top: 0.5rem;
   width: 100%;
@@ -135,8 +213,26 @@ h1 {
   text-decoration: underline;
 }
 
-.research-embed {
+.research-demos {
   margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--line);
+}
+
+.research-section-label {
+  margin: 0 0 0.8rem;
+  color: var(--ink);
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.research-demo-card {
+  margin: 0;
+}
+
+.research-embed {
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -151,10 +247,19 @@ h1 {
 }
 
 .research-caption {
-  margin: 0.6rem 0 1rem;
+  margin: 0.65rem 0 0;
   color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+.field-trial-section {
+  margin-top: 1.6rem;
+  padding: 1.2rem 0 0;
+}
+
+.field-trial-card {
+  max-width: 760px;
 }
 
 @media (max-width: 920px) {
@@ -166,6 +271,11 @@ h1 {
   .research-item {
     flex-direction: column;
     gap: 1rem;
+  }
+
+  .study-card,
+  .study-media-grid {
+    grid-template-columns: 1fr;
   }
 
   .research-media {
